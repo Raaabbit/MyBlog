@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+  <div>
+    <span id="time"></span>
+  </div>
+  <!-- <script>
+    // Create WebSocket connection.
+    const socket = new WebSocket('ws://121.40.165.18:8800');
+    // Connection opened
+    socket.addEventListener('open', function (event) {
+      socket.send('Hello Server!');
+    });
+    // Listen for messages
+    socket.addEventListener('message', function (event) {
+      console.log('Message from server ', event.data);
+    });
+    // Listen for closed
+    socket.addEventListener('close', function (event) {
+      console.log('Message from server ', event.data);
+    });
+  </script> -->
+  <script src="https://cdn.bootcss.com/socket.io/2.2.0/socket.io.js"></script>
+  <script>
+    let socket = io('http://localhost');
+    socket.on('news', function (data) {
+      console.log(data);
+      socket.emit('clientMsg', { my: 'data' });
+    });
+  </script>
+</body>
+
+</html>

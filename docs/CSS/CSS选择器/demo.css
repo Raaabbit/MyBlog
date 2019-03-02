@@ -1,0 +1,41 @@
+#app{
+    width: 300px;
+    margin: 10px auto;
+    background-color: #eeeeee;
+    border-radius: 30px 30px;
+    padding: 100px;
+}
+.demolist{
+    color: blueviolet;
+    font-size: 30px;
+}
+/* 属性选择器 */
+/* 第一种 [attr] */
+/* [disabled]{
+    background-color: #ccc;
+} */
+/* 第二种 [attr=val] */
+/* [type='button']{
+    background-color: #ccc;
+} */
+/* 第三种 [attr~=val] */
+/* [class~='test']{
+    text-align: center;
+} */
+/* 第四种 [attr^=val] 属性以 val 开头 */
+/* [class^='demo']{
+    background-color:#fff;
+} */
+/* 第五种 [attr|=val] 属性以 val- 开头 */
+/* [class|='demo']{
+    background-color:red;
+} */
+/* 第六种 [attr$=val] 属性以 val 结尾 */
+/* [class$='item']{
+    font-weight: bold;   
+} */
+
+/* 伪类与伪元素选择器 */
+#app:hover{
+    border:2px solid #aaccaa;
+}
