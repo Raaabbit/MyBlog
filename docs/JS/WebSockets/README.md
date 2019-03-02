@@ -1,7 +1,7 @@
 # Web Sockets
 
 可以创建和服务器进行双向会话的高级技术，取代了曾经使用的轮询方法。
-
+![Ajax轮询与WebSocket](./title.png)
 ## API
 
 - WebSocket：用于连接WebSocket服务器的对象
