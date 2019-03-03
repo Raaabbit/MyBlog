@@ -27,7 +27,8 @@ module.exports = {
         title: 'CSS',
         children: [
           '/CSS/CSS基本语法/',
-          '/CSS/CSS选择器/'
+          '/CSS/CSS选择器/',
+          '/CSS/实用的垂直、水平、垂直水平居中方案/'
         ]
       },
       {
@@ -51,6 +52,13 @@ module.exports = {
       {
         title: '前端优化',
         children: [ /* ... */]
+      },
+      {
+        title: '数据结构与算法',
+        children: [ 
+          '/数据结构与算法/数据结构与算法？/',
+          '/数据结构与算法/算法的度量标准/'
+        ]
       },
       {
         title: '开发环境配置',
