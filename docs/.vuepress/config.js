@@ -34,6 +34,9 @@ module.exports = {
       {
         title: 'JS',
         children: [
+          '/JS/变量声明var与let与const.md',
+          '/JS/箭头函数.md',
+          '/JS/JS的执行顺序.md',
           '/JS/WebSockets/'
         ]
       },
@@ -51,7 +54,12 @@ module.exports = {
       },
       {
         title: '前端优化',
-        children: [ /* ... */]
+        children: [ 
+          '/前端优化/从HTTP请求入手.md',
+          '/前端优化/回流和重绘.md',
+          '/前端优化/好用的documentFragment.md',
+          '/前端优化/为什么在head中引入CSS.md'
+        ]
       },
       {
         title: '数据结构与算法',
@@ -61,13 +69,11 @@ module.exports = {
         ]
       },
       {
-        title: '开发环境配置',
-        children: [ /* ... */]
-      },
-      {
         title: '折腾',
         children: [
-          '/折腾/macOS软件安利/'
+          '/折腾/Linux发行版Manjaro.md',
+          '/折腾/macOS软件安利/',
+          '/折腾/docker 初体验.md'
         ]
       },
       {
