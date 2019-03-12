@@ -36,6 +36,7 @@ module.exports = {
         children: [
           '/JS/变量声明var与let与const.md',
           '/JS/箭头函数.md',
+          '/JS/参数收集与数组展开.md',
           '/JS/JS的执行顺序.md',
           '/JS/WebSockets/'
         ]
@@ -65,7 +66,9 @@ module.exports = {
         title: '数据结构与算法',
         children: [ 
           '/数据结构与算法/数据结构与算法？/',
-          '/数据结构与算法/算法的度量标准/'
+          '/数据结构与算法/算法的度量标准/',
+          '/数据结构与算法/栈与队列/',
+          '/数据结构与算法/二叉树/'
         ]
       },
       {
