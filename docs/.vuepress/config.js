@@ -15,7 +15,9 @@ module.exports = {
       '/',
       {
         title: 'Projects',
-        children: [ /* ... */]
+        children: [
+          '/Projects/'
+        ]
       },
       {
         title: 'HTML',
@@ -54,12 +56,12 @@ module.exports = {
         children: [ /* ... */]
       },
       {
-        title: '前端优化',
+        title: '前端性能优化',
         children: [ 
-          '/前端优化/从HTTP请求入手.md',
-          '/前端优化/回流和重绘.md',
-          '/前端优化/好用的documentFragment.md',
-          '/前端优化/为什么在head中引入CSS.md'
+          '/前端性能优化/从HTTP请求入手.md',
+          '/前端性能优化/回流和重绘.md',
+          '/前端性能优化/好用的documentFragment.md',
+          '/前端性能优化/为什么在head中引入CSS.md'
         ]
       },
       {

@@ -6,8 +6,15 @@
 - 微信Web开发者工具
 - WebStorm（事实上我并没有安装
 - IDEA
-- Android Studio
 ## 视频剪辑
 - iMovie
+- ArcTime（配字幕方便多啦
 ## 办公
 - WPS
+- Keynote
+## 清理
+- Tencent Lemon
+- AppCleaner
+## 下载
+- 迅雷
+- Folx
