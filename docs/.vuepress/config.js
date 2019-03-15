@@ -22,6 +22,8 @@ module.exports = {
       {
         title: 'HTML',
         children: [
+          '/HTML/HTML第一步-理解HTML.md',
+          '/HTML/HTML基本语法.md',
           '/HTML/HTML文档标题/'
         ]
       },
@@ -61,7 +63,8 @@ module.exports = {
           '/前端性能优化/从HTTP请求入手.md',
           '/前端性能优化/回流和重绘.md',
           '/前端性能优化/好用的documentFragment.md',
-          '/前端性能优化/为什么在head中引入CSS.md'
+          '/前端性能优化/为什么在head中引入CSS.md',
+          '/前端性能优化/JS异步加载.md'
         ]
       },
       {
