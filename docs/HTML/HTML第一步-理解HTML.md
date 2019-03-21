@@ -69,7 +69,7 @@ HTML 的全称是超文本标记语言（HyperText Markup Language），这并�
 head 部分是文档头部， body部分是文档主体。
 
 ### head文档头部
-head 文档头部中包含了 **文档元数据** 其中包含了文档的一系列属和信息。
+head 文档头部中包含了 **文档元数据** 其中包含了文档的一系列属性和信息。
 ```html
 <head>
     <meta charset="UTF-8">

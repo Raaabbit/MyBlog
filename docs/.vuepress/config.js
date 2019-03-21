@@ -24,7 +24,8 @@ module.exports = {
         children: [
           '/HTML/HTML第一步-理解HTML.md',
           '/HTML/HTML基本语法.md',
-          '/HTML/HTML文档标题/'
+          '/HTML/HTML文档标题/',
+          '/HTML/文档头部与元数据.md'
         ]
       },
       {
@@ -55,7 +56,10 @@ module.exports = {
       },
       {
         title: 'NodeJS',
-        children: [ /* ... */]
+        children: [
+          '/NodeJS/Webpack/初步理解Webpack原理.md',
+          '/NodeJS/超简单的静态网页服务器.md'
+        ]
       },
       {
         title: '前端性能优化',
@@ -80,13 +84,16 @@ module.exports = {
         title: '折腾',
         children: [
           '/折腾/Linux发行版Manjaro.md',
+          '/折腾/macbook 无法加入网络/macbook 无法加入网络.md',
           '/折腾/macOS软件安利/',
           '/折腾/docker 初体验.md'
         ]
       },
       {
         title: '茶馆',
-        children: [ /* ... */]
+        children: [ 
+          '/茶馆/摄影（三月十七日）/'
+        ]
       }
     ]
   }
