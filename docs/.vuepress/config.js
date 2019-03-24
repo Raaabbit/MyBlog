@@ -2,7 +2,7 @@ module.exports = {
   title: "Raaabbit's Blog",
   description: 'Document library',
   head: [
-    ['link', { rel: 'icon', href: '/favicon .ico' }]
+    ['link', { rel: 'icon', href: '/favicon.ico' }]
   ],
   themeConfig: {
     lastUpdated: 'Last Updated',
@@ -42,16 +42,11 @@ module.exports = {
           '/JS/变量声明var与let与const.md',
           '/JS/箭头函数.md',
           '/JS/参数收集与数组展开.md',
-          '/JS/JS的执行顺序.md',
-          '/JS/WebSockets/'
+          '/JS/JS的执行顺序.md'
         ]
       },
       {
         title: 'DOM',
-        children: [ /* ... */]
-      },
-      {
-        title: 'Vue',
         children: [ /* ... */]
       },
       {
@@ -60,6 +55,16 @@ module.exports = {
           '/NodeJS/Webpack/初步理解Webpack原理.md',
           '/NodeJS/超简单的静态网页服务器.md'
         ]
+      },
+      {
+        title: '网络基础',
+        children: [
+          '/网络基础/WebSockets/'
+        ]
+      },
+      {
+        title: 'Vue',
+        children: [ /* ... */]
       },
       {
         title: '前端性能优化',

@@ -9,5 +9,6 @@
 - QQ：1613671808
 - E-MAIL：[yangflo@foxmail.com](yangflo@foxmail.com)
 
+> 如果对博客的内容有不同意见或者建议，欢迎通过各种联系方式联系我，我们可以一起讨论～
 
 

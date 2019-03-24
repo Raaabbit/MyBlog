@@ -16,9 +16,12 @@ Manjaro基于Arch Linux，继承了Arch Linux滚动更新的特点，可以直�
 
 ## 镜像下载
 我是在中文站下载的镜像，[https://www.manjaro.cn/](https://www.manjaro.cn/)
+
 除了官方提供的`manjaro-kde`，`manjaro-gnome`，`manjaro-xfce`，`manjaro`还支持各种社区桌面环境。
+
 [戳此看详情：](https://manjaro.org/community-editions/)包括`Awesome (17.1.12)`，`Bspwm (17.1.7)`，`Budgie (17.1.12)`，`Cinnamon (17.1.12)`，`Deepin (17.1.12)`，`i3 (18.0)`，`LXDE / LXQT (17.1.12)`，`Mate (17.1.12)`，`Openbox (17.1.12)`
 ![社区桌面系统](https://img-blog.csdnimg.cn/20181126160416565.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2dpdGh1Yl8zOTQ1Nzc0MA==,size_16,color_FFFFFF,t_70)
+
 作为一个deepin用户，强烈推荐尝试deepin桌面环境。
 ## 安装
 作为一个安装了n多次系统的老司机，这次竟然翻车了，用`Rufus`刻录好启动盘，开机，然后就进入到了grub的修复模式`unknown filesystem`。随后在论坛中查看，找到的解决方案[https://forum.manjaro.org/t/dell-xps-9350-usb-rufus-error-unknown-filesystem-unable-to-install-solved/64430](https://forum.manjaro.org/t/dell-xps-9350-usb-rufus-error-unknown-filesystem-unable-to-install-solved/64430)
