@@ -1,7 +1,7 @@
 # Web Sockets
 
 可以创建和服务器进行双向会话的高级技术，取代了曾经使用的轮询方法。
-> demo请参见：[https://github.com/Raaabbit/MyBlog/tree/master/docs/JS/WebSockets](https://github.com/Raaabbit/MyBlog/tree/master/docs/JS/WebSockets)
+> demo请参见：[https://github.com/Raaabbit/MyBlog/tree/master/docs/%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80/WebSockets](https://github.com/Raaabbit/MyBlog/tree/master/docs/%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80/WebSockets)
 
 ![Ajax轮询与WebSocket](./title.png)
 ## API

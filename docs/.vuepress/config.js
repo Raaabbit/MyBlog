@@ -59,12 +59,19 @@ module.exports = {
       {
         title: '网络基础',
         children: [
-          '/网络基础/WebSockets/'
+          '/网络基础/WebSockets/',
+          '/网络基础/Web安全/XSS.md'
         ]
       },
       {
         title: 'Vue',
         children: [ /* ... */]
+      },
+      {
+        title: 'Docker',
+        children: [
+          '/Docker/Docker入门.md'
+        ]
       },
       {
         title: '前端性能优化',
