@@ -33,6 +33,8 @@ module.exports = {
         children: [
           '/CSS/CSS基本语法/',
           '/CSS/CSS选择器/',
+          '/CSS/CSS盒子模型/',
+          '/CSS/浮动与清除浮动/',
           '/CSS/实用的垂直、水平、垂直水平居中方案/'
         ]
       },
