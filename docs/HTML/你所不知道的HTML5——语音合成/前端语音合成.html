@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>前端语音合成demo</title>
+    <style>
+        #app{
+            width:480px;
+            margin: auto;
+            background-color: #57c3ba;
+            box-sizing: border-box;
+            border-radius: 10px;
+            padding: 4px;
+        }
+        #speech-text{
+            box-sizing: border-box;
+            width: 100%;
+            height: 140px;
+            outline: none;
+            border: none;
+            border-radius: 10px 10px 0 0 ;
+            padding: 10px;
+            font-size: 14px;
+            background: #fff;
+        }
+        #btn-group{
+            display: flex;
+            border-radius: 0 0 10px 10px;
+            overflow: hidden;
+            background: #41abab;
+            color: #fff;
+        }
+        #btn-group>button{
+            flex: 1;
+            height: 40px;
+            border: none;
+            outline: none;
+            color: #fff;
+            background: #3e9494;
+            transition: background-color .2s;
+        }
+        #btn-group>button:hover{
+            color: #fff;
+            background: #41b5b5;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <div id="speech-text" contenteditable="true">
+        </div>
+        <div id="btn-group">
+            <button id="speak-btn">开始</button>
+            <button id="pause-btn">暂停</button>
+            <button id="cancel-btn">取消</button>
+        </div>
+    </div>
+<script>
+    window.onload = ()=>{
+
+        let count = 0; // 词语数量
+        let speechMsg = new SpeechSynthesisUtterance();
+        let synth = window.speechSynthesis;
+        speechMsg.addEventListener('start',()=>{
+            // 开始阅读
+            console.log(`文本内容： ${speechMsg.text}`);
+            console.log("start");
+        });
+        speechMsg.addEventListener('end',()=>{
+            // 阅读结束
+            console.log("end");
+            console.log(`文本单词（词语）数量：${count}`);
+            count = 0;
+            speakBtn.disabled = false;
+        });
+        speechMsg.addEventListener('boundary',()=>{
+            // 统计单词
+            count++;
+        });
+        speechMsg.addEventListener('pause',()=>{
+            console.log('pause');
+        });
+        speechMsg.addEventListener('resume',()=>{
+            console.log('resume');
+        })
+        // 获取文本内容并阅读
+        let speakBtn = document.querySelector('#speak-btn');
+        let pauseBtn = document.querySelector('#pause-btn');
+        let cancelBtn = document.querySelector('#cancel-btn');
+        speakBtn.addEventListener('click',(event)=>{
+            event.preventDefault();
+            speechMsg.text = document.querySelector('#speech-text').textContent;
+            synth.speak(speechMsg);
+            speakBtn.disabled = true;
+        });
+        pauseBtn.addEventListener('click',(()=>{
+            let speaking = true;
+            return (event)=>{
+                event.preventDefault();
+                if (speaking) {
+                    speaking = false;
+                    pauseBtn.innerText = "继续";
+                    synth.pause();
+                }else{
+                    speaking = true;
+                    pauseBtn.innerText = "暂停";
+                    synth.resume();
+                }
+            }
+        })());
+        cancelBtn.addEventListener('click',(event)=>{
+            event.preventDefault();
+            console.log('cancel');
+            synth.cancel();
+        })
+    }
+</script>
+</body>
+</html>
