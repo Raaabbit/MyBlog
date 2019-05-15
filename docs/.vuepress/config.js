@@ -25,7 +25,8 @@ module.exports = {
           '/HTML/HTML第一步-理解HTML.md',
           '/HTML/HTML基本语法.md',
           '/HTML/HTML文档标题/',
-          '/HTML/文档头部与元数据.md'
+          '/HTML/文档头部与元数据.md',
+          '/HTML/你所不知道的HTML5——语音合成/'
         ]
       },
       {
@@ -98,12 +99,8 @@ module.exports = {
         ]
       },
       {
-        title: '折腾',
+        title: '后端与数据库',
         children: [
-          '/折腾/Linux发行版Manjaro.md',
-          '/折腾/macbook 无法加入网络/macbook 无法加入网络.md',
-          '/折腾/macOS软件安利/',
-          '/折腾/docker 初体验.md'
         ]
       },
       {
