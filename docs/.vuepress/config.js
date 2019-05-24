@@ -9,7 +9,8 @@ module.exports = {
     nav: [
       { text: '主页', link: '/' },
       { text: 'CSDN', link: 'https://blog.csdn.net/github_39457740' },
-      { text: 'GITHUB', link: 'https://www.iyouhun.com' },
+      { text: 'GITHUB', link: 'https://github.com/Raaabbit' },
+      { text: '掘金', link:'https://juejin.im/user/5ad73de5f265da502c218493'}
     ],
     sidebar: [
       '/',
@@ -26,7 +27,8 @@ module.exports = {
           '/HTML/HTML基本语法.md',
           '/HTML/HTML文档标题/',
           '/HTML/文档头部与元数据.md',
-          '/HTML/你所不知道的HTML5——语音合成/'
+          '/HTML/你所不知道的HTML5——语音合成/',
+          '/HTML/你所不知道的HTML5——Audio API/'
         ]
       },
       {
