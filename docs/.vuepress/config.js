@@ -55,7 +55,10 @@ module.exports = {
       },
       {
         title: 'DOM',
-        children: [ /* ... */]
+        children: [
+          '/DOM/DOM章节预览.md',
+          '/DOM/节点操作/节点操作——获取节点.md'
+        ]
       },
       {
         title: 'NodeJS',
