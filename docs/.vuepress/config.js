@@ -57,7 +57,8 @@ module.exports = {
         title: 'DOM',
         children: [
           '/DOM/DOM章节预览.md',
-          '/DOM/节点操作/节点操作——获取节点.md'
+          '/DOM/节点操作/节点操作——获取节点.md',
+          '/DOM/节点操作/节点操作——增删查改.md'
         ]
       },
       {
