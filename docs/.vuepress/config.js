@@ -4,6 +4,10 @@ module.exports = {
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }]
   ],
+  markdown: {
+    lineNumbers: true
+  },
+  plugins: ['@vuepress/nprogress', '@vuepress/back-to-top'],
   themeConfig: {
     lastUpdated: 'Last Updated',
     nav: [
