@@ -12,7 +12,6 @@ module.exports = {
     lastUpdated: 'Last Updated',
     nav: [
       { text: '主页', link: '/' },
-      { text: 'CSDN', link: 'https://blog.csdn.net/github_39457740' },
       { text: 'GITHUB', link: 'https://github.com/Raaabbit' },
       { text: '掘金', link:'https://juejin.im/user/5ad73de5f265da502c218493'}
     ],

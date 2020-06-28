@@ -4,7 +4,6 @@
 东南大学软件工程在读本科僧:-)   
 请戳左边Projects了解我做过的小东西～
 ## LINKS
-- CSDN：[https://blog.csdn.net/github_39457740](https://blog.csdn.net/github_39457740)
 - 掘金：[https://juejin.im/user/5ad73de5f265da502c218493](https://juejin.im/user/5ad73de5f265da502c218493)
 - E-MAIL：[yangflo@foxmail.com](yangflo@foxmail.com)
 

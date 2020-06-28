@@ -150,7 +150,7 @@ msg.addEventListener('boundary',()=>{
 曾经在我迷茫的时候，我去阅读一些大牛的文章，读到一些前辈对前端开发的思考。其中有一点令我印象深刻：
 > 前端是最贴近用户的，一切要从用户的的角度考虑，无障碍使用也是一个很重要的课题。虽然做这样的功能带来的收益远远小于其他业务，但是为了让产品更好的服务用户，多付出一些劳动也是值得的，这也是前端开发的一种精神
 
-本文同步发布于我的[个人博客](https://raaabbit.github.io)，[CSDN](https://blog.csdn.net/github_39457740)，[掘金](https://juejin.im/user/5ad73de5f265da502c218493/posts)
+本文同步发布于我的[个人博客](https://raaabbit.github.io)，[掘金](https://juejin.im/user/5ad73de5f265da502c218493/posts)
 
 如果有什么问题，意见，建议欢迎评论；如果觉得我写的不错，那就点个赞吧～
 
