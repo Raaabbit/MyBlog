@@ -18,12 +18,6 @@ module.exports = {
     sidebar: [
       '/',
       {
-        title: 'Projects',
-        children: [
-          '/Projects/'
-        ]
-      },
-      {
         title: 'HTML',
         children: [
           '/HTML/HTML第一步-理解HTML.md',
